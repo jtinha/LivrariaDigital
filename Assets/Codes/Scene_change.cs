@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scene_change : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+{private  const string Log = "joao";
+    
+private  const string Sen = "123";
+[SerializeField]
+private InputField InserLog= null;
+[SerializeField]
+private InputField InserSen= null;
+[SerializeField]
+private Text info=null;
+        void Start()
     {
-        
+        InserLog.Text=PlayerPrefs.GetString("LembreLog");
+        InserSen.Text=PlayerPrefs.GetString("LembreSen");
     }
 
     // Update is called once per frame
-    void Update()
+    public void FazerLog()
     {
-        
+        string login = InserLog.text;
+        string senha = InserSen.text;
     }
 }
