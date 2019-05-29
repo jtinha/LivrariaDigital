@@ -15,8 +15,8 @@ private InputField InserSen= null;
 private Text info=null;
         void Start()
     {
-        InserLog.Text=PlayerPrefs.GetString("LembreLog");
-        InserSen.Text=PlayerPrefs.GetString("LembreSen");
+        InserLog.text=PlayerPrefs.GetString("LembreLog");
+        InserSen.text=PlayerPrefs.GetString("LembreSen");
     }
 
     // Update is called once per frame

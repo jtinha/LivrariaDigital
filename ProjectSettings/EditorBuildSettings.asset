@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScanLV1.unity
     guid: c8b90fbbac478ab438a33971ea37cda0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Login.unity
     guid: 607ccad961be86c40831aeec68c9d058
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Registro.unity
     guid: c65bef134b78f1d43a1c9d50f3c531c8
+  - enabled: 0
+    path: Assets/Scenes/ScanLV2.unity
+    guid: 67ef3a8642546274c83aa53107b45375
   m_configObjects: {}
