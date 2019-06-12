@@ -1,2 +1,2 @@
 # LivrariaDigital
-é um projeto sobre livros e comentários que mistura AR com uma rede social
+É um projeto AR que tem por objetivo incentivar os alunos do E.M a estudarem e lerem mais
